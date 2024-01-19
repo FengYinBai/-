@@ -1,0 +1,15 @@
+<view>
+	<view wx:if="{{canIUseOpenData}}">
+		<view class="userinfo-avatar">
+			<open-data type="userAvatarUrl"></open-data>
+		</view>
+		<view class="userinfo-nickname">
+			<open-data type="userNickName"></open-data>
+		</view>
+		<button class="btnStyle" bindtap="clickPingjia">我的评价</button>
+		<button class="btnStyle" bindtap="clickTuichuDenglu">退出登录</button>
+	</view>
+	<view wx:else>
+		<button class="btnLog" type="primary" bindtap="getUserProfile">登录</button>
+	</view>
+</view>
