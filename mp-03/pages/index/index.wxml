@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="gonggao">
+	<swiper  class="gonggao" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+		<swiper-item>
+			<image class="gonggaoT" src="/images/kexue.jpg" mode=""/>
+		</swiper-item>
+		<swiper-item>
+			<image class="gonggaoT" src="/images/qianduan.jpg" mode=""/>
+		</swiper-item>
+		<swiper-item>
+			<image class="gonggaoT" src="/images/sql.jpg" mode=""/>
+		</swiper-item>
+	</swiper>
+</view>
