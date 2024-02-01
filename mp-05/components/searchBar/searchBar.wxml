@@ -1,0 +1,6 @@
+<!--components/searchBar/searchBar.wxml-->
+<view class="search_bar">
+    <navigator url="/pages/search/search">
+        <icon type="search" size="16"/>搜索
+    </navigator>
+</view>

@@ -1,0 +1,22 @@
+.btnStyle{
+	margin-top: 50px;
+	width: 200px;
+	background-color: rgb(219, 219, 219);
+}
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  float: left;
+}
+.userinfo-nickname{
+  height: 128rpx;
+  padding-top: 64rpx;
+  
+}
+.btnLog{
+  margin-top: 500rpx;
+  color: #D81E06;
+}

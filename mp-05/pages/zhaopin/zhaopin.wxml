@@ -1,0 +1,3 @@
+<!--pages/zhaopin/zhaopin.wxml-->
+<!-- 搜索框 -->
+<SearchBar></SearchBar>
