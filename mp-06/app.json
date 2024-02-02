@@ -1,0 +1,52 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/wode/wode",
+        "pages/yingpin/yingpin",
+        "pages/zhaopin/zhaopin",
+        "pages/pingjia/pingjia",
+        "pages/search/search"
+    ],
+    "tabBar": {
+        "selectedColor": "#D81E06",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "icons/index.png",
+                "selectedIconPath": "icons/index1.png"
+            },
+            {
+                "pagePath": "pages/zhaopin/zhaopin",
+                "text": "家教招聘",
+                "iconPath": "icons/icon3.png",
+                "selectedIconPath": "icons/icon3_act.png"
+            },
+            {
+                "pagePath": "pages/yingpin/yingpin",
+                "text": "家教应聘",
+                "iconPath": "icons/icon1.png",
+                "selectedIconPath": "icons/icon1_act.png"
+            },
+            {
+                "pagePath": "pages/wode/wode",
+                "text": "我的",
+                "iconPath": "icons/mine.png",
+                "selectedIconPath": "icons/mine1.png"
+            }
+        ]
+    },
+    "window": {
+        "navigationStyle": "default",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "家教预约",
+        "navigationBarBackgroundColor": "#D81E06"
+    },
+    "usingComponents": {
+        "SearchBar": "/components/searchBar/searchBar"
+    },
+    "style": "v2",
+    "renderer": "webview",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}
